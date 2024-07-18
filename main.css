@@ -9,7 +9,7 @@ h1{margin:0 auto;}
 @media screen and (min-width :600px) and (max-width: 2400px) { 
 .row {display: flex; flex-wrap: wrap; margin: 0 auto; align-content:space-around;padding: 1em; padding-bottom: 2em; } 
 .mob30 {flex: 0 0 30%;margin:0.5em auto;padding:0.5em;}
-.mob40 {flex: 0 0 40%;margin:0.5em auto;padding:0.5em;}
+.mob40 {max-width: 40%;margin:0.5em auto;padding:0.5em;}
 .mob15 {flex: 0 0 15%;margin:0.5em auto;padding:0.5em;}
 .mob40e { border:solid thin grey;border-radius:1em;padding:0;} 
 h1{margin:0 auto;}
